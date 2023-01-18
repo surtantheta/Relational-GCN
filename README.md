@@ -13,7 +13,7 @@ python3 entity_classify.py -d amazon --testing --gpu 0
 ```
 ## Dataset Statistics
 <ul>
-<li>### ACM
+###<li> ACM
 <table>
   <tr>
     <th>author</th>
