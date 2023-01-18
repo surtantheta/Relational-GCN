@@ -13,7 +13,7 @@ python3 entity_classify.py -d amazon --testing --gpu 0
 ```
 ## Dataset Statistics
 <ul>
-###<li> ACM
+<lh> ACM
 <table>
   <tr>
     <th>author</th>
@@ -39,8 +39,8 @@ python3 entity_classify.py -d amazon --testing --gpu 0
     <td>2,125</td>
   </tr>
 </table>
-  </li>
-<li>### IMDb
+</lh>
+<lh>IMDb
 <table>
   <tr>
     <th>Movie</th>
@@ -64,4 +64,5 @@ python3 entity_classify.py -d amazon --testing --gpu 0
     <td>2,687</td>
   </tr>
 </table>
-  </li>
+  </lh>
+</ul>
