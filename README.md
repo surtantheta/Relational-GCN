@@ -39,7 +39,6 @@ python3 entity_classify.py -d amazon --testing --gpu 0
     <td>2,125</td>
   </tr>
 </table>
-</lh>
 <lh>IMDb
 <table>
   <tr>
@@ -64,5 +63,4 @@ python3 entity_classify.py -d amazon --testing --gpu 0
     <td>2,687</td>
   </tr>
 </table>
-  </lh>
 </ul>
