@@ -6,4 +6,6 @@ Paper: https://arxiv.org/abs/1703.06103
 ```python
 python3 entity_classify.py -d [DATASET] -e [EPOCHS] --testing --gpu [CPU/ GPU]
 ```
-
+```
+where DATASET = {amazon, imdb, dplp, imdb}, gpu = 0(CPU), -1(GPU)
+```
