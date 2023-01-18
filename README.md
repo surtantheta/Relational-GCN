@@ -11,3 +11,31 @@ where DATASET = {amazon, imdb, dplp, imdb}, gpu = 0(CPU), -1(GPU)
 ```python
 python3 entity_classify.py -d amazon --testing --gpu 0 
 ```
+,		,	,025	1,902	600	300	2,125
+## Dataset Statistics
+### ACM
+<table>
+  <tr>
+    <th>author</th>
+    <th>paper</th>
+    <th>Subject</th>
+    <th>Paper-Author</th>
+    <th>Paper-Subject</th>
+    <th>Features</th>
+    <th>Train</th>
+    <th>Val</th>
+    <th>Test</th>
+
+  </tr>
+  <tr>
+    <td>5,912</td>
+    <td>3,025	</td>
+    <td>57</td>
+    <td>9,936</td>
+    <td>3,025</td>
+    <td>1,902</td>
+    <td>600</td>
+    <td>300</td>
+    <td>2,125</td>
+  </tr>
+</table>
