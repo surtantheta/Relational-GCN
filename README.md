@@ -65,7 +65,6 @@ python3 entity_classify.py -d amazon --testing --gpu 0
   </tr>
 </table>
 </li>
-  							Train	Val	Test
   <li><b>DBLP</b>
 <table>
   <tr>
@@ -95,7 +94,7 @@ python3 entity_classify.py -d amazon --testing --gpu 0
   </tr>
 </table>
 </li>
-  <li><b>Fraud Amazon Dataset </b>
+  <li><b>Fraud Amazon Dataset </b><br>
     The Amazon dataset includes product reviews under the Musical Instruments category. Users with more than 80% helpful votes are labelled as benign entities and users with less than 20% helpful votes are labelled as fraudulent entities. A fraudulent user detection task can be conducted on the Amazon dataset, which is a binary classification task. 25 handcrafted features from <https://arxiv.org/pdf/2005.10150.pdf> are taken as the raw node features .
 
 Users are nodes in the graph, and three relations are: 1. U-P-U : it connects users reviewing at least one same product 2. U-S-U : it connects users having at least one same star rating within one week 3. U-V-U : it connects users with top 5% mutual review text similarities (measured by TF-IDF) among all users.
