@@ -46,12 +46,13 @@ def main(args):
       test_mask = g.nodes[category].data.pop("test_mask")
       train_idx = th.nonzero(train_mask, as_tuple=False).squeeze()
       test_idx = th.nonzero(test_mask, as_tuple=False).squeeze()
+      val_idx = train_idx
       labels = g.nodes[category].data.pop("labels")
       category_id = len(g.ntypes)
 
     elif args.dataset == "amazon":
-      category = g.ntypes
-
+      category = g.ntypes[0]
+      print(category)
       train_mask = g.ndata['train_mask']
       val_mask = g.ndata['val_mask']
       test_mask = g.ndata['test_mask']
