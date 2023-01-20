@@ -52,7 +52,6 @@ def main(args):
 
     elif args.dataset == "amazon":
       category = g.ntypes[0]
-      print(category)
       train_mask = g.ndata['train_mask']
       val_mask = g.ndata['val_mask']
       test_mask = g.ndata['test_mask']
